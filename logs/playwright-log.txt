@@ -1,0 +1,63 @@
+{"level":30,"time":"2025-07-20T18:52:14.439Z","pid":28148,"hostname":"DESKTOP-T8B1GKE","msg":"Listening on 127.0.0.1:61448"}
+(node:28148) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2025-07-20T18:52:14.509Z","pid":28148,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-07-20T18:52:14.651Z","pid":28148,"hostname":"DESKTOP-T8B1GKE","msg":"Adding browser to stack: chromium, version: 138.0.7204.23"}
+{"level":30,"time":"2025-07-20T18:52:14.652Z","pid":28148,"hostname":"DESKTOP-T8B1GKE","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-07-20T18:52:14.652Z","pid":28148,"hostname":"DESKTOP-T8B1GKE","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-07-20T18:52:14.656Z","pid":28148,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-07-20T18:52:14.656Z","pid":28148,"hostname":"DESKTOP-T8B1GKE","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-07-20T18:52:14.667Z","pid":28148,"hostname":"DESKTOP-T8B1GKE","msg":"Changed active context"}
+{"level":30,"time":"2025-07-20T18:52:14.801Z","pid":28148,"hostname":"DESKTOP-T8B1GKE","msg":"Video path: undefined"}
+{"level":30,"time":"2025-07-20T18:52:14.801Z","pid":28148,"hostname":"DESKTOP-T8B1GKE","msg":"Changed active page"}
+{"level":30,"time":"2025-07-20T18:52:19.028Z","pid":28148,"hostname":"DESKTOP-T8B1GKE","msg":"End of node method newPage"}
+{"level":30,"time":"2025-07-20T18:52:19.032Z","pid":28148,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method click"}
+{"level":30,"time":"2025-07-20T18:52:19.032Z","pid":28148,"hostname":"DESKTOP-T8B1GKE","msg":"Strict mode is enabled, find Locator with xpath=//a[text()=\" Signup / Login\"] in page."}
+{"level":30,"time":"2025-07-20T18:52:19.355Z","pid":28148,"hostname":"DESKTOP-T8B1GKE","msg":"End of node method click"}
+{"level":30,"time":"2025-07-20T18:52:19.360Z","pid":28148,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-07-20T18:52:19.360Z","pid":28148,"hostname":"DESKTOP-T8B1GKE","msg":"Strict mode is enabled, find Locator with [data-qa=\"signup-name\"] in page."}
+{"level":30,"time":"2025-07-20T18:52:19.401Z","pid":28148,"hostname":"DESKTOP-T8B1GKE","msg":"End of node method fillText"}
+{"level":30,"time":"2025-07-20T18:52:19.403Z","pid":28148,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-07-20T18:52:19.403Z","pid":28148,"hostname":"DESKTOP-T8B1GKE","msg":"Strict mode is enabled, find Locator with [data-qa=\"signup-email\"] in page."}
+{"level":30,"time":"2025-07-20T18:52:19.411Z","pid":28148,"hostname":"DESKTOP-T8B1GKE","msg":"End of node method fillText"}
+{"level":30,"time":"2025-07-20T18:52:19.413Z","pid":28148,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method click"}
+{"level":30,"time":"2025-07-20T18:52:19.413Z","pid":28148,"hostname":"DESKTOP-T8B1GKE","msg":"Strict mode is enabled, find Locator with [data-qa=\"signup-button\"] in page."}
+{"level":30,"time":"2025-07-20T18:52:19.720Z","pid":28148,"hostname":"DESKTOP-T8B1GKE","msg":"End of node method click"}
+{"level":30,"time":"2025-07-20T18:52:19.724Z","pid":28148,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method click"}
+{"level":30,"time":"2025-07-20T18:52:19.724Z","pid":28148,"hostname":"DESKTOP-T8B1GKE","msg":"Strict mode is enabled, find Locator with id=id_gender1 in page."}
+{"level":30,"time":"2025-07-20T18:52:19.778Z","pid":28148,"hostname":"DESKTOP-T8B1GKE","msg":"End of node method click"}
+{"level":30,"time":"2025-07-20T18:52:19.780Z","pid":28148,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-07-20T18:52:19.780Z","pid":28148,"hostname":"DESKTOP-T8B1GKE","msg":"Strict mode is enabled, find Locator with [data-qa=\"password\"] in page."}
+{"level":30,"time":"2025-07-20T18:52:19.786Z","pid":28148,"hostname":"DESKTOP-T8B1GKE","msg":"End of node method fillText"}
+{"level":30,"time":"2025-07-20T18:52:19.788Z","pid":28148,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method selectOption"}
+{"level":30,"time":"2025-07-20T18:52:19.788Z","pid":28148,"hostname":"DESKTOP-T8B1GKE","msg":"Strict mode is enabled, find Locator with id=days in page."}
+================= Original suppressed error =================
+locator.selectOption: options[0].value: expected string, got number
+    at selectOption (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11817:32)
+    at async PlaywrightServer.selectOption (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13135:28)
+=============================================================
+{"level":30,"time":"2025-07-20T18:52:19.789Z","pid":28148,"hostname":"DESKTOP-T8B1GKE","msg":"Error of node method  selectOption"}
+{"level":30,"time":"2025-07-20T18:52:19.793Z","pid":28148,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-07-20T18:52:19.793Z","pid":28148,"hostname":"DESKTOP-T8B1GKE","Take screenshot with options: ":{"path":"D:\\QA\\Robot\\AutomationExercise\\logs\\browser\\screenshot\\fail-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-07-20T18:52:19.893Z","pid":28148,"hostname":"DESKTOP-T8B1GKE","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-07-20T18:52:19.907Z","pid":28148,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-07-20T18:52:19.908Z","pid":28148,"hostname":"DESKTOP-T8B1GKE","Take screenshot with options: ":{"path":"D:\\QA\\Robot\\AutomationExercise\\logs\\browser\\screenshot\\robotframework-browser-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-07-20T18:52:19.974Z","pid":28148,"hostname":"DESKTOP-T8B1GKE","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-07-20T18:52:19.977Z","pid":28148,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-20T18:52:19.980Z","pid":28148,"hostname":"DESKTOP-T8B1GKE","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-20T18:52:19.981Z","pid":28148,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-20T18:52:19.982Z","pid":28148,"hostname":"DESKTOP-T8B1GKE","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-20T18:52:19.983Z","pid":28148,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-20T18:52:19.984Z","pid":28148,"hostname":"DESKTOP-T8B1GKE","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-20T18:52:19.986Z","pid":28148,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-20T18:52:19.987Z","pid":28148,"hostname":"DESKTOP-T8B1GKE","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-20T18:52:19.988Z","pid":28148,"hostname":"DESKTOP-T8B1GKE","msg":"Changed active context"}
+{"level":30,"time":"2025-07-20T18:52:19.988Z","pid":28148,"hostname":"DESKTOP-T8B1GKE","msg":"Changing current active page: page=a2dbdcec-b62f-484d-844f-2f28e395cfc9"}
+{"level":30,"time":"2025-07-20T18:52:19.988Z","pid":28148,"hostname":"DESKTOP-T8B1GKE","msg":"Changed active page"}
+{"level":30,"time":"2025-07-20T18:52:19.990Z","pid":28148,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method closeContext"}
+{"level":30,"time":"2025-07-20T18:52:20.008Z","pid":28148,"hostname":"DESKTOP-T8B1GKE","msg":"Removed page=e75ad6d9-0cfd-462c-b74a-4d450dc1b97e from context=9dde6e1a-f8df-42f3-8a9c-c8d087c39204 page stack"}
+{"level":30,"time":"2025-07-20T18:52:20.030Z","pid":28148,"hostname":"DESKTOP-T8B1GKE","msg":"End of node method closeContext"}
+{"level":30,"time":"2025-07-20T18:52:20.039Z","pid":28148,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-20T18:52:20.039Z","pid":28148,"hostname":"DESKTOP-T8B1GKE","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-20T18:52:20.065Z","pid":28148,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-07-20T18:52:20.230Z","pid":28148,"hostname":"DESKTOP-T8B1GKE","msg":"End of node method closeAllBrowsers"}

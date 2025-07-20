@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3.2 (Python 3.13.5 on win32)" generated="2025-07-20T15:52:13.663450" rpa="false" schemaversion="5">
+<suite id="s1" name="TestsBase" source="D:\QA\Robot\AutomationExercise\TestsBase.robot">
+<test id="s1-t1" name="Realizar registro de usuário" line="9">
+<kw name="Start new session" owner="base" type="SETUP">
+<kw name="New Browser" owner="Browser">
+<msg time="2025-07-20T15:52:13.953276" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "D:\\QA\\Robot\\AutomationExercise\\logs\\browser\\traces\\temp\\d4ac464c-cfaf-463a-b062-9ff107150611"}</msg>
+<msg time="2025-07-20T15:52:13.971404" level="INFO">Starting Browser process C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js using at 127.0.0.1:61448</msg>
+<msg time="2025-07-20T15:52:14.654051" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"D:\\QA\\Robot\\AutomationExercise\\logs\\browser\\traces\\temp\\d4ac464c-cfaf-463a-b062-9ff107150611"}</msg>
+<arg>browser=chromium</arg>
+<arg>headless=False</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2025-07-20T15:52:13.952789" elapsed="0.701482"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2025-07-20T15:52:19.029342" level="INFO">Successfully initialized new page object and opened url: https://www.automationexercise.com/</msg>
+<msg time="2025-07-20T15:52:19.029437" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<arg>https://www.automationexercise.com/</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2025-07-20T15:52:14.654488" elapsed="4.375127"/>
+</kw>
+<status status="PASS" start="2025-07-20T15:52:13.952300" elapsed="5.077478"/>
+</kw>
+<kw name="Acessar página de login e cadastro" owner="navBar">
+<kw name="Click" owner="Browser">
+<msg time="2025-07-20T15:52:19.030825" level="INFO">Clicks the element 'xpath=//a[text()=" Signup / Login"]'.</msg>
+<arg>xpath=//a[text()=" Signup / Login"]</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2025-07-20T15:52:19.030449" elapsed="0.325874"/>
+</kw>
+<status status="PASS" start="2025-07-20T15:52:19.030143" elapsed="0.326289"/>
+</kw>
+<kw name="Criar Dados De Usuario" owner="userDataFaker">
+<msg time="2025-07-20T15:52:19.358265" level="INFO">${usuario} = {'name': 'Sr. Otto Moraes', 'email': 'ana-luizadas-neves@example.net', 'gender': 'id_gender1', 'password': '87FUl8tf%y', 'dayBirth': 28, 'monthBirth': 12, 'yearBirth': 1952, 'firstName': 'Stephany', '...</msg>
+<var>${usuario}</var>
+<status status="PASS" start="2025-07-20T15:52:19.356632" elapsed="0.001689"/>
+</kw>
+<kw name="Preencher informações de Signup" owner="signupLogin">
+<kw name="Fill Text" owner="Browser">
+<msg time="2025-07-20T15:52:19.359255" level="INFO">Fills the text 'Sr. Otto Moraes' in the given field.</msg>
+<arg>[data-qa="signup-name"]</arg>
+<arg>${name}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-07-20T15:52:19.358919" elapsed="0.043656"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2025-07-20T15:52:19.403130" level="INFO">Fills the text 'ana-luizadas-neves@example.net' in the given field.</msg>
+<arg>[data-qa="signup-email"]</arg>
+<arg>${email}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-07-20T15:52:19.402729" elapsed="0.009495"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2025-07-20T15:52:19.412742" level="INFO">Clicks the element '[data-qa="signup-button"]'.</msg>
+<arg>[data-qa="signup-button"]</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2025-07-20T15:52:19.412381" elapsed="0.308756"/>
+</kw>
+<arg>${usuario}[name]</arg>
+<arg>${usuario}[email]</arg>
+<status status="PASS" start="2025-07-20T15:52:19.358593" elapsed="0.362650"/>
+</kw>
+<kw name="Preencher todas as informações para registro" owner="signup">
+<kw name="Click" owner="Browser">
+<msg time="2025-07-20T15:52:19.722324" level="INFO">Clicks the element 'id=id_gender1'.</msg>
+<arg>id=${user}[gender]</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2025-07-20T15:52:19.721953" elapsed="0.057194"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2025-07-20T15:52:19.779724" level="INFO">Fills the text '87FUl8tf%y' in the given field.</msg>
+<arg>[data-qa="password"]</arg>
+<arg>${user}[password]</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-07-20T15:52:19.779304" elapsed="0.007915"/>
+</kw>
+<kw name="Select Options By" owner="Browser">
+<msg time="2025-07-20T15:52:19.787821" level="INFO">Selects the option(s) 28 by attribute SelectAttribute.value from element id=days.</msg>
+<msg time="2025-07-20T15:52:19.894365" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/fail-screenshot-1.png" target="_blank"&gt;&lt;img src="browser/screenshot/fail-screenshot-1.png" width="800px"/&gt;&lt;/a&gt;</msg>
+<msg time="2025-07-20T15:52:19.894491" level="INFO">See also file:///D:/QA/Robot/AutomationExercise/logs/playwright-log.txt for additional details.</msg>
+<msg time="2025-07-20T15:52:19.894769" level="FAIL">Error: locator.selectOption: options[0].value: expected string, got number</msg>
+<arg>id=days</arg>
+<arg>value</arg>
+<arg>${user}[dayBirth]</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Selects options from select element found by ``selector``.</doc>
+<status status="FAIL" start="2025-07-20T15:52:19.787379" elapsed="0.115992">Error: locator.selectOption: options[0].value: expected string, got number</status>
+</kw>
+<kw name="Select Options By" owner="Browser">
+<arg>id=months</arg>
+<arg>value</arg>
+<arg>${user}[monthBirth]</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Selects options from select element found by ``selector``.</doc>
+<status status="NOT RUN" start="2025-07-20T15:52:19.903532" elapsed="0.000083"/>
+</kw>
+<kw name="Select Options By" owner="Browser">
+<arg>id=years</arg>
+<arg>value</arg>
+<arg>${user}[years]</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Selects options from select element found by ``selector``.</doc>
+<status status="NOT RUN" start="2025-07-20T15:52:19.903696" elapsed="0.000036"/>
+</kw>
+<kw name="Check Checkbox" owner="Browser">
+<arg>id=optin</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Checks the checkbox or selects radio button found by ``selector``.</doc>
+<status status="NOT RUN" start="2025-07-20T15:52:19.903796" elapsed="0.000030"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<arg>[data-qa="first_name"]</arg>
+<arg>${user}[first_name]</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="NOT RUN" start="2025-07-20T15:52:19.903885" elapsed="0.000031"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<arg>[data-qa="last_name"]</arg>
+<arg>${user}[last_name]</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="NOT RUN" start="2025-07-20T15:52:19.903973" elapsed="0.000028"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<arg>[data-qa="company"]</arg>
+<arg>${user}[company]</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="NOT RUN" start="2025-07-20T15:52:19.904199" elapsed="0.000057"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<arg>[data-qa="address"]</arg>
+<arg>${user}[address]</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="NOT RUN" start="2025-07-20T15:52:19.904329" elapsed="0.000030"/>
+</kw>
+<kw name="Select Options By" owner="Browser">
+<arg>id=country</arg>
+<arg>value</arg>
+<arg>${user}[country]</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Selects options from select element found by ``selector``.</doc>
+<status status="NOT RUN" start="2025-07-20T15:52:19.904423" elapsed="0.000030"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<arg>[data-qa="state"]</arg>
+<arg>${user}[state]</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="NOT RUN" start="2025-07-20T15:52:19.904510" elapsed="0.000026"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<arg>[data-qa="city"]</arg>
+<arg>${user}[city]</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="NOT RUN" start="2025-07-20T15:52:19.904589" elapsed="0.000026"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<arg>[data-qa="zipcode"]</arg>
+<arg>${user}[zipcode]</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="NOT RUN" start="2025-07-20T15:52:19.904670" elapsed="0.000025"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<arg>[data-qa="mobile_number"]</arg>
+<arg>${user}[mobile_number]</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="NOT RUN" start="2025-07-20T15:52:19.904747" elapsed="0.000030"/>
+</kw>
+<kw name="Click" owner="Browser">
+<arg>[data-qa="create-account"]</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="NOT RUN" start="2025-07-20T15:52:19.904833" elapsed="0.000030"/>
+</kw>
+<arg>${usuario}</arg>
+<status status="FAIL" start="2025-07-20T15:52:19.721579" elapsed="0.183377">Error: locator.selectOption: options[0].value: expected string, got number</status>
+</kw>
+<kw name="Take Screenshot" owner="Browser" type="TEARDOWN">
+<msg time="2025-07-20T15:52:19.975035" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/robotframework-browser-screenshot-1.png" target="_blank"&gt;&lt;img src="browser/screenshot/robotframework-browser-screenshot-1.png" width="800px"/&gt;&lt;/a&gt;</msg>
+<tag>PageContent</tag>
+<doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
+<status status="PASS" start="2025-07-20T15:52:19.905378" elapsed="0.069780"/>
+</kw>
+<msg time="2025-07-20T15:52:19.985757" level="INFO">Switching context to context=9dde6e1a-f8df-42f3-8a9c-c8d087c39204 in CURRENT</msg>
+<msg time="2025-07-20T15:52:19.990020" level="INFO">Successfully changed active context: context=9dde6e1a-f8df-42f3-8a9c-c8d087c39204</msg>
+<msg time="2025-07-20T15:52:20.032601" level="INFO">Successfully closed Context</msg>
+<status status="FAIL" start="2025-07-20T15:52:13.951510" elapsed="6.023912">Error: locator.selectOption: options[0].value: expected string, got number</status>
+</test>
+<status status="FAIL" start="2025-07-20T15:52:13.664453" elapsed="6.369814"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="TestsBase" id="s1" pass="0" fail="1" skip="0">TestsBase</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
