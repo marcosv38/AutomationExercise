@@ -1,5 +1,15 @@
 {
 
-    
+ "login":{
+        "validUser":{
+            "password": "@h82rW3Lx@tFyJ",
+            "email": "marcos.bws@hotmail.com",
+            "name": "marcos"
+        },
+        "invalidUser":{
+            "password": "@h82rW3Lx@tFyJ",
+            "email": "marcos3.bws@hotmail.com"
+        }
+    }   
 
 }
