@@ -11,4 +11,6 @@ Validando área logada
 
 Deslogar
     Click    xpath=//a[text()=" Logout"]
-    
+
+Ir para página de contato
+    Click    //a[@href="/contact_us"]

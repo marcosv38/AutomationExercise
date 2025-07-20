@@ -8,6 +8,7 @@ Resource    pages/components/navBar.resource
 Resource    pages/signupLogin.resource
 Resource    pages/signup.resource
 Resource    pages/accountCreated.resource
+Resource    pages/contact.resource
 
 *** Keywords ***
 Start new session

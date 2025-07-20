@@ -1,140 +1,184 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.3.2 (Python 3.13.5 on win32)" generated="2025-07-20T19:08:20.999540" rpa="false" schemaversion="5">
+<robot generator="Robot 7.3.2 (Python 3.13.5 on win32)" generated="2025-07-20T20:23:04.683540" rpa="false" schemaversion="5">
 <suite id="s1" name="TestsBase" source="D:\QA\Robot\AutomationExercise\TestsBase.robot">
-<test id="s1-t1" name="Realizar cadastro com email já cadastrado" line="46">
+<test id="s1-t1" name="Realizar contato através do form de contato" line="53">
 <kw name="Start new session" owner="base" type="SETUP">
 <kw name="New Browser" owner="Browser">
-<msg time="2025-07-20T19:08:21.293490" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "D:\\QA\\Robot\\AutomationExercise\\logs\\browser\\traces\\temp\\99cb4f59-88d7-4393-a37f-746687d2ffb9"}</msg>
-<msg time="2025-07-20T19:08:21.316392" level="INFO">Starting Browser process C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js using at 127.0.0.1:62525</msg>
-<msg time="2025-07-20T19:08:22.021625" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"D:\\QA\\Robot\\AutomationExercise\\logs\\browser\\traces\\temp\\99cb4f59-88d7-4393-a37f-746687d2ffb9"}</msg>
+<msg time="2025-07-20T20:23:04.980982" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "D:\\QA\\Robot\\AutomationExercise\\logs\\browser\\traces\\temp\\f5bcbf94-b437-4513-9854-e24521139282"}</msg>
+<msg time="2025-07-20T20:23:04.999315" level="INFO">Starting Browser process C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js using at 127.0.0.1:64629</msg>
+<msg time="2025-07-20T20:23:05.690147" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"D:\\QA\\Robot\\AutomationExercise\\logs\\browser\\traces\\temp\\f5bcbf94-b437-4513-9854-e24521139282"}</msg>
 <arg>browser=chromium</arg>
 <arg>headless=False</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Create a new playwright Browser with specified options.</doc>
-<status status="PASS" start="2025-07-20T19:08:21.293027" elapsed="0.728775"/>
+<status status="PASS" start="2025-07-20T20:23:04.980499" elapsed="0.709945"/>
 </kw>
 <kw name="New Page" owner="Browser">
-<msg time="2025-07-20T19:08:25.985593" level="INFO">Successfully initialized new page object and opened url: https://www.automationexercise.com/</msg>
-<msg time="2025-07-20T19:08:25.985658" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<msg time="2025-07-20T20:23:09.782265" level="INFO">Successfully initialized new page object and opened url: https://www.automationexercise.com/</msg>
+<msg time="2025-07-20T20:23:09.782359" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
 <arg>https://www.automationexercise.com/</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Open a new Page.</doc>
-<status status="PASS" start="2025-07-20T19:08:22.022026" elapsed="3.963744"/>
+<status status="PASS" start="2025-07-20T20:23:05.690750" elapsed="4.091781"/>
 </kw>
-<status status="PASS" start="2025-07-20T19:08:21.292579" elapsed="4.693303"/>
+<status status="PASS" start="2025-07-20T20:23:04.980029" elapsed="4.802638"/>
 </kw>
-<kw name="Acessar página de login e cadastro" owner="navBar">
+<kw name="Ir para página de contato" owner="navBar">
 <kw name="Click" owner="Browser">
-<msg time="2025-07-20T19:08:25.987015" level="INFO">Clicks the element 'xpath=//a[text()=" Signup / Login"]'.</msg>
-<arg>xpath=//a[text()=" Signup / Login"]</arg>
+<msg time="2025-07-20T20:23:09.783713" level="INFO">Clicks the element '//a[@href="/contact_us"]'.</msg>
+<arg>//a[@href="/contact_us"]</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-07-20T19:08:25.986660" elapsed="0.923715"/>
+<status status="PASS" start="2025-07-20T20:23:09.783368" elapsed="0.837432"/>
 </kw>
-<status status="PASS" start="2025-07-20T19:08:25.986233" elapsed="0.924346"/>
+<status status="PASS" start="2025-07-20T20:23:09.783039" elapsed="0.837871"/>
 </kw>
 <kw name="Get JSON Fixtures" owner="base">
 <kw name="Load Json From File" owner="JSONLibrary">
-<msg time="2025-07-20T19:08:26.912230" level="INFO">${data} = {'login': {'validUser': {'password': '@h82rW3Lx@tFyJ', 'email': 'marcos.bws@hotmail.com', 'name': 'marcos'}, 'invalidUser': {'password': '@h82rW3Lx@tFyJ', 'email': 'marcos3.bws@hotmail.com'}}}</msg>
+<msg time="2025-07-20T20:23:10.622193" level="INFO">${data} = {'login': {'validUser': {'password': '@h82rW3Lx@tFyJ', 'email': 'marcos.bws@hotmail.com', 'name': 'marcos'}, 'invalidUser': {'password': '@h82rW3Lx@tFyJ', 'email': 'marcos3.bws@hotmail.com'}, 'contact...</msg>
 <var>${data}</var>
 <arg>${EXECDIR}/resources/fixtures/${file_name}.json</arg>
 <arg>encoding=utf-8</arg>
 <doc>Load JSON from file.</doc>
-<status status="PASS" start="2025-07-20T19:08:26.911709" elapsed="0.000547"/>
+<status status="PASS" start="2025-07-20T20:23:10.621693" elapsed="0.000528"/>
 </kw>
 <return>
 <value>${data}[${scenario}]</value>
-<status status="PASS" start="2025-07-20T19:08:26.912310" elapsed="0.000082"/>
+<status status="PASS" start="2025-07-20T20:23:10.622277" elapsed="0.000091"/>
 </return>
-<msg time="2025-07-20T19:08:26.912523" level="INFO">${userLogin} = {'validUser': {'password': '@h82rW3Lx@tFyJ', 'email': 'marcos.bws@hotmail.com', 'name': 'marcos'}, 'invalidUser': {'password': '@h82rW3Lx@tFyJ', 'email': 'marcos3.bws@hotmail.com'}}</msg>
+<msg time="2025-07-20T20:23:10.622512" level="INFO">${userLogin} = {'validUser': {'password': '@h82rW3Lx@tFyJ', 'email': 'marcos.bws@hotmail.com', 'name': 'marcos'}, 'invalidUser': {'password': '@h82rW3Lx@tFyJ', 'email': 'marcos3.bws@hotmail.com'}, 'contact': {'email...</msg>
 <var>${userLogin}</var>
 <arg>dados</arg>
 <arg>login</arg>
-<status status="PASS" start="2025-07-20T19:08:26.911344" elapsed="0.001197"/>
+<status status="PASS" start="2025-07-20T20:23:10.621350" elapsed="0.001181"/>
 </kw>
-<kw name="Preencher informações de Signup" owner="signupLogin">
+<kw name="Inserir dados de contato" owner="contact">
 <kw name="Fill Text" owner="Browser">
-<msg time="2025-07-20T19:08:26.913543" level="INFO">Fills the text 'marcos' in the given field.</msg>
-<arg>[data-qa="signup-name"]</arg>
-<arg>${name}</arg>
+<msg time="2025-07-20T20:23:10.623411" level="INFO">Fills the text 'marcos' in the given field.</msg>
+<arg>[data-qa="name"]</arg>
+<arg>${NAME}</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
-<status status="PASS" start="2025-07-20T19:08:26.913073" elapsed="0.023639"/>
+<status status="PASS" start="2025-07-20T20:23:10.623089" elapsed="0.027768"/>
 </kw>
 <kw name="Fill Text" owner="Browser">
-<msg time="2025-07-20T19:08:26.937332" level="INFO">Fills the text 'marcos.bws@hotmail.com' in the given field.</msg>
-<arg>[data-qa="signup-email"]</arg>
-<arg>${email}</arg>
+<msg time="2025-07-20T20:23:10.651762" level="INFO">Fills the text 'marcos.weq@hotmail.com' in the given field.</msg>
+<arg>[data-qa="email"]</arg>
+<arg>${EMAIL}</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
-<status status="PASS" start="2025-07-20T19:08:26.936898" elapsed="0.010519"/>
+<status status="PASS" start="2025-07-20T20:23:10.651094" elapsed="0.013039"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2025-07-20T20:23:10.664740" level="INFO">Fills the text 'marcos' in the given field.</msg>
+<arg>[data-qa="name"]</arg>
+<arg>${NAME}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-07-20T20:23:10.664332" elapsed="0.011723"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2025-07-20T20:23:10.676756" level="INFO">Fills the text 'Apoio para resolver os bagulhos e tals' in the given field.</msg>
+<arg>[data-qa="subject"]</arg>
+<arg>${SUBJECT}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-07-20T20:23:10.676308" elapsed="0.009305"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2025-07-20T20:23:10.686178" level="INFO">Fills the text 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.' in the given field.</msg>
+<arg>[data-qa="message"]</arg>
+<arg>${MESSAGE}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-07-20T20:23:10.685772" elapsed="0.008782"/>
+</kw>
+<kw name="Upload File By Selector" owner="Browser">
+<arg>xpath=//input[@name="upload_file"]</arg>
+<arg>${EXECDIR}/files/contato.txt</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Uploads file from ``path`` to file input element matched by selector.</doc>
+<status status="PASS" start="2025-07-20T20:23:10.694719" elapsed="0.010209"/>
+</kw>
+<arg>${userLogin}[contact][name]</arg>
+<arg>${userLogin}[contact][email]</arg>
+<arg>${userLogin}[contact][subject]</arg>
+<arg>${userLogin}[contact][message]</arg>
+<status status="PASS" start="2025-07-20T20:23:10.622794" elapsed="0.082233"/>
+</kw>
+<kw name="Enviar mensagem de contato" owner="contact">
+<kw name="Handle Future Dialogs" owner="Browser">
+<msg time="2025-07-20T20:23:10.708018" level="INFO">${message} = None</msg>
+<var>${message}</var>
+<arg>accept</arg>
+<tag>PageContent</tag>
+<doc>Handle next dialog on page with ``action``.</doc>
+<status status="PASS" start="2025-07-20T20:23:10.705629" elapsed="0.002438"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-07-20T20:23:12.709128" level="INFO">Slept 2 seconds.</msg>
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-07-20T20:23:10.708205" elapsed="2.001027"/>
 </kw>
 <kw name="Click" owner="Browser">
-<msg time="2025-07-20T19:08:26.948986" level="INFO">Clicks the element '[data-qa="signup-button"]'.</msg>
-<arg>[data-qa="signup-button"]</arg>
+<msg time="2025-07-20T20:23:12.709751" level="INFO">Clicks the element '[data-qa="submit-button"]'.</msg>
+<arg>[data-qa="submit-button"]</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-07-20T19:08:26.947636" elapsed="0.358877"/>
+<status status="PASS" start="2025-07-20T20:23:12.709368" elapsed="0.041823"/>
 </kw>
-<arg>${userLogin}[validUser][name]</arg>
-<arg>${userLogin}[validUser][email]</arg>
-<status status="PASS" start="2025-07-20T19:08:26.912739" elapsed="0.393970"/>
+<kw name="Should Be Equal" owner="BuiltIn">
+<msg time="2025-07-20T20:23:12.751848" level="INFO">Argument types are:
+&lt;class 'NoneType'&gt;
+&lt;class 'str'&gt;</msg>
+<msg time="2025-07-20T20:23:12.751954" level="FAIL">None != Press OK to proceed!</msg>
+<arg>${message}</arg>
+<arg>Press OK to proceed!</arg>
+<doc>Fails if the given objects are unequal.</doc>
+<status status="FAIL" start="2025-07-20T20:23:12.751567" elapsed="0.000505">None != Press OK to proceed!</status>
 </kw>
-<kw name="Validar mensagem de email incorreto" owner="signupLogin">
-<kw name="Wait For Elements State" owner="Browser">
-<msg time="2025-07-20T19:08:27.337568" level="INFO">Waited for Element with selector xpath=//form[@action="/signup"]//p at state visible</msg>
-<arg>xpath=//form[@action="/signup"]//p</arg>
-<arg>visible</arg>
-<tag>PageContent</tag>
-<tag>Wait</tag>
-<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
-<status status="PASS" start="2025-07-20T19:08:27.307518" elapsed="0.030177"/>
+<status status="FAIL" start="2025-07-20T20:23:10.705357" elapsed="2.046820">None != Press OK to proceed!</status>
 </kw>
-<kw name="Get Text" owner="Browser">
-<msg time="2025-07-20T19:08:27.355904" level="INFO">Text: 'Email Address already exist!'</msg>
-<arg>//form[@action="/signup"]//p</arg>
-<arg>equal</arg>
-<arg>Email Address already exist!</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" start="2025-07-20T19:08:27.337845" elapsed="0.018159"/>
-</kw>
-<status status="PASS" start="2025-07-20T19:08:27.307157" elapsed="0.048935"/>
+<kw name="Validar envio de contato" owner="contact">
+<status status="NOT RUN" start="2025-07-20T20:23:12.752451" elapsed="0.000078"/>
 </kw>
 <kw name="Take Screenshot" owner="Browser" type="TEARDOWN">
-<msg time="2025-07-20T19:08:27.433950" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/robotframework-browser-screenshot-1.png" target="_blank"&gt;&lt;img src="browser/screenshot/robotframework-browser-screenshot-1.png" width="800px"/&gt;&lt;/a&gt;</msg>
+<msg time="2025-07-20T20:23:12.875436" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/robotframework-browser-screenshot-1.png" target="_blank"&gt;&lt;img src="browser/screenshot/robotframework-browser-screenshot-1.png" width="800px"/&gt;&lt;/a&gt;</msg>
 <tag>PageContent</tag>
 <doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
-<status status="PASS" start="2025-07-20T19:08:27.356413" elapsed="0.077667"/>
+<status status="PASS" start="2025-07-20T20:23:12.752743" elapsed="0.122817"/>
 </kw>
-<msg time="2025-07-20T19:08:27.449717" level="INFO">Switching context to context=0b3ed9c6-90b9-41b0-92dc-02223e2d318d in CURRENT</msg>
-<msg time="2025-07-20T19:08:27.454279" level="INFO">Successfully changed active context: context=0b3ed9c6-90b9-41b0-92dc-02223e2d318d</msg>
-<msg time="2025-07-20T19:08:27.499933" level="INFO">Successfully closed Context</msg>
-<tag>cadastroinv</tag>
-<status status="PASS" start="2025-07-20T19:08:21.291951" elapsed="6.142367"/>
+<msg time="2025-07-20T20:23:12.886024" level="INFO">Switching context to context=d77a05cf-6c0b-4a2a-ab1e-2f2695600212 in CURRENT</msg>
+<msg time="2025-07-20T20:23:12.894538" level="INFO">Successfully changed active context: context=d77a05cf-6c0b-4a2a-ab1e-2f2695600212</msg>
+<msg time="2025-07-20T20:23:12.941437" level="INFO">Successfully closed Context</msg>
+<tag>contato</tag>
+<status status="FAIL" start="2025-07-20T20:23:04.979318" elapsed="7.896516">None != Press OK to proceed!</status>
 </test>
-<status status="PASS" start="2025-07-20T19:08:21.000552" elapsed="6.503348"/>
+<status status="FAIL" start="2025-07-20T20:23:04.684649" elapsed="8.259011"/>
 </suite>
 <statistics>
 <total>
-<stat pass="1" fail="0" skip="0">All Tests</stat>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
 </total>
 <tag>
-<stat pass="1" fail="0" skip="0">cadastroinv</stat>
+<stat pass="0" fail="1" skip="0">contato</stat>
 </tag>
 <suite>
-<stat name="TestsBase" id="s1" pass="1" fail="0" skip="0">TestsBase</stat>
+<stat name="TestsBase" id="s1" pass="0" fail="1" skip="0">TestsBase</stat>
 </suite>
 </statistics>
 <errors>
-<msg time="2025-07-20T19:08:21.017234" level="WARN">Error in file 'D:\QA\Robot\AutomationExercise\resources\base.resource' on line 21: The '[Return]' setting is deprecated. Use the 'RETURN' statement instead.</msg>
+<msg time="2025-07-20T20:23:04.700940" level="WARN">Error in file 'D:\QA\Robot\AutomationExercise\resources\base.resource' on line 22: The '[Return]' setting is deprecated. Use the 'RETURN' statement instead.</msg>
 </errors>
 </robot>

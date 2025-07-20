@@ -50,3 +50,10 @@ Realizar cadastro com email já cadastrado
     Preencher informações de Signup    ${userLogin}[validUser][name]    ${userLogin}[validUser][email]
     Validar mensagem de email incorreto
 
+Realizar contato através do form de contato
+    [Tags]    contato
+    Ir para página de contato
+    ${userLogin}    Get JSON Fixtures    dados    login
+    Inserir dados de contato    ${userLogin}[contact][name]    ${userLogin}[contact][email]    ${userLogin}[contact][subject]    ${userLogin}[contact][message]    
+    Enviar mensagem de contato
+    Validar envio de contato
