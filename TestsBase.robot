@@ -57,3 +57,11 @@ Realizar contato através do form de contato
     Inserir dados de contato    ${userLogin}[contact][name]    ${userLogin}[contact][email]    ${userLogin}[contact][subject]    ${userLogin}[contact][message]    
     Enviar mensagem de contato
     Validar envio de contato
+
+verificar todos os produtos e a página de detalhes do produto
+    [Tags]    TodosProdutos
+    Ir para página de produtos
+    verificar Página de all products
+    selecionar o primeiro produto
+    Verificar página de detalhes de produto
+    

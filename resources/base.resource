@@ -9,6 +9,8 @@ Resource    pages/signupLogin.resource
 Resource    pages/signup.resource
 Resource    pages/accountCreated.resource
 Resource    pages/contact.resource
+Resource    pages/allProducts.resource
+Resource    pages/productDetails.resource
 
 *** Keywords ***
 Start new session

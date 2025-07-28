@@ -14,3 +14,6 @@ Deslogar
 
 Ir para página de contato
     Click    //a[@href="/contact_us"]
+
+Ir para página de produtos
+    Click    //a[@href="/products"]
