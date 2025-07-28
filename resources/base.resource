@@ -11,6 +11,7 @@ Resource    pages/accountCreated.resource
 Resource    pages/contact.resource
 Resource    pages/allProducts.resource
 Resource    pages/productDetails.resource
+Resource    pages/searchedProducts.resource
 
 *** Keywords ***
 Start new session

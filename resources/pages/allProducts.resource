@@ -10,3 +10,9 @@ verificar Página de all products
 
 selecionar o primeiro produto
     Click    xpath=//a[@href="/product_details/1"]
+
+Pesquisar Produto
+    [Arguments]    ${produto}
+    Wait For Elements State    css=#search_product    visible    5s
+    Fill Text    css=#search_product    ${produto}
+    Click    css=#submit_search

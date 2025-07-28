@@ -1,69 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.3.2 (Python 3.13.5 on win32)" generated="2025-07-28T07:22:31.288215" rpa="false" schemaversion="5">
+<robot generator="Robot 7.3.2 (Python 3.13.5 on win32)" generated="2025-07-28T07:44:32.946974" rpa="false" schemaversion="5">
 <suite id="s1" name="TestsBase" source="D:\QA\Robot\AutomationExercise\TestsBase.robot">
-<test id="s1-t1" name="verificar todos os produtos e a página de detalhes do produto" line="61">
+<test id="s1-t1" name="Pesquisar produto" line="68">
 <kw name="Start new session" owner="base" type="SETUP">
 <kw name="New Browser" owner="Browser">
-<msg time="2025-07-28T07:22:31.562337" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "D:\\QA\\Robot\\AutomationExercise\\logs\\browser\\traces\\temp\\aab64bcd-b2d3-4814-ae50-aa666b171a26"}</msg>
-<msg time="2025-07-28T07:22:31.582512" level="INFO">Starting Browser process C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js using at 127.0.0.1:60225</msg>
-<msg time="2025-07-28T07:22:32.270049" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"D:\\QA\\Robot\\AutomationExercise\\logs\\browser\\traces\\temp\\aab64bcd-b2d3-4814-ae50-aa666b171a26"}</msg>
+<msg time="2025-07-28T07:44:33.246923" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "D:\\QA\\Robot\\AutomationExercise\\logs\\browser\\traces\\temp\\76d85031-1990-4b4d-8df8-27ff132c8dce"}</msg>
+<msg time="2025-07-28T07:44:33.265970" level="INFO">Starting Browser process C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js using at 127.0.0.1:50483</msg>
+<msg time="2025-07-28T07:44:33.939192" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"D:\\QA\\Robot\\AutomationExercise\\logs\\browser\\traces\\temp\\76d85031-1990-4b4d-8df8-27ff132c8dce"}</msg>
 <arg>browser=chromium</arg>
 <arg>headless=False</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Create a new playwright Browser with specified options.</doc>
-<status status="PASS" start="2025-07-28T07:22:31.561858" elapsed="0.708346"/>
+<status status="PASS" start="2025-07-28T07:44:33.246453" elapsed="0.692873"/>
 </kw>
 <kw name="New Page" owner="Browser">
-<msg time="2025-07-28T07:22:36.714028" level="INFO">Successfully initialized new page object and opened url: https://www.automationexercise.com/</msg>
-<msg time="2025-07-28T07:22:36.714116" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<msg time="2025-07-28T07:44:37.491953" level="INFO">Successfully initialized new page object and opened url: https://www.automationexercise.com/</msg>
+<msg time="2025-07-28T07:44:37.492014" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
 <arg>https://www.automationexercise.com/</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Open a new Page.</doc>
-<status status="PASS" start="2025-07-28T07:22:32.270460" elapsed="4.443794"/>
+<status status="PASS" start="2025-07-28T07:44:33.939509" elapsed="3.552609"/>
 </kw>
-<status status="PASS" start="2025-07-28T07:22:31.561422" elapsed="5.152942"/>
+<status status="PASS" start="2025-07-28T07:44:33.245996" elapsed="4.246226"/>
 </kw>
 <kw name="Ir para página de produtos" owner="navBar">
 <kw name="Click" owner="Browser">
-<msg time="2025-07-28T07:22:36.715310" level="INFO">Clicks the element '//a[@href="/products"]'.</msg>
+<msg time="2025-07-28T07:44:37.493231" level="INFO">Clicks the element '//a[@href="/products"]'.</msg>
 <arg>//a[@href="/products"]</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-07-28T07:22:36.714996" elapsed="0.296391"/>
+<status status="PASS" start="2025-07-28T07:44:37.492911" elapsed="0.337676"/>
 </kw>
-<status status="PASS" start="2025-07-28T07:22:36.714688" elapsed="0.296866"/>
+<status status="PASS" start="2025-07-28T07:44:37.492604" elapsed="0.338111"/>
 </kw>
 <kw name="verificar Página de all products" owner="allProducts">
 <kw name="Wait For Elements State" owner="Browser">
-<msg time="2025-07-28T07:22:37.071976" level="INFO">Waited for Element with selector css=.features_items at state visible</msg>
+<msg time="2025-07-28T07:44:37.884467" level="INFO">Waited for Element with selector css=.features_items at state visible</msg>
 <arg>css=.features_items</arg>
 <arg>visible</arg>
 <arg>timeout=5s</arg>
 <tag>PageContent</tag>
 <tag>Wait</tag>
 <doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
-<status status="PASS" start="2025-07-28T07:22:37.012508" elapsed="0.059741"/>
+<status status="PASS" start="2025-07-28T07:44:37.831485" elapsed="0.053135"/>
 </kw>
 <kw name="Get Url" owner="Browser">
-<msg time="2025-07-28T07:22:37.076297" level="INFO">${url} = https://www.automationexercise.com/products</msg>
+<msg time="2025-07-28T07:44:37.888583" level="INFO">${url} = https://www.automationexercise.com/products</msg>
 <var>${url}</var>
 <tag>Assertion</tag>
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Returns the current URL.</doc>
-<status status="PASS" start="2025-07-28T07:22:37.072570" elapsed="0.003779"/>
+<status status="PASS" start="2025-07-28T07:44:37.884769" elapsed="0.003913"/>
 </kw>
 <kw name="Should Be Equal" owner="BuiltIn">
 <arg>${url}</arg>
 <arg>https://www.automationexercise.com/products</arg>
 <doc>Fails if the given objects are unequal.</doc>
-<status status="PASS" start="2025-07-28T07:22:37.076551" elapsed="0.000314"/>
+<status status="PASS" start="2025-07-28T07:44:37.889034" elapsed="0.000343"/>
 </kw>
 <kw name="Get Text" owner="Browser">
-<msg time="2025-07-28T07:22:37.094373" level="INFO">Text: 'ALL PRODUCTS'</msg>
+<msg time="2025-07-28T07:44:37.907543" level="INFO">Text: 'ALL PRODUCTS'</msg>
 <arg>xpath=//h2[text()="All Products"]</arg>
 <arg>equal</arg>
 <arg>ALL PRODUCTS</arg>
@@ -71,115 +71,112 @@
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" start="2025-07-28T07:22:37.077004" elapsed="0.017475"/>
+<status status="PASS" start="2025-07-28T07:44:37.889486" elapsed="0.018155"/>
 </kw>
-<status status="PASS" start="2025-07-28T07:22:37.012029" elapsed="0.082538"/>
+<status status="PASS" start="2025-07-28T07:44:37.831054" elapsed="0.076678"/>
 </kw>
-<kw name="selecionar o primeiro produto" owner="allProducts">
+<kw name="Pesquisar Produto" owner="allProducts">
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2025-07-28T07:44:37.914411" level="INFO">Waited for Element with selector css=#search_product at state visible</msg>
+<arg>css=#search_product</arg>
+<arg>visible</arg>
+<arg>5s</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2025-07-28T07:44:37.908494" elapsed="0.006039"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2025-07-28T07:44:37.915073" level="INFO">Fills the text 'Stylish Dress' in the given field.</msg>
+<arg>css=#search_product</arg>
+<arg>${produto}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-07-28T07:44:37.914676" elapsed="0.011194"/>
+</kw>
 <kw name="Click" owner="Browser">
-<msg time="2025-07-28T07:22:37.095515" level="INFO">Clicks the element 'xpath=//a[@href="/product_details/1"]'.</msg>
-<arg>xpath=//a[@href="/product_details/1"]</arg>
+<msg time="2025-07-28T07:44:37.926410" level="INFO">Clicks the element 'css=#submit_search'.</msg>
+<arg>css=#submit_search</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-07-28T07:22:37.095206" elapsed="0.566507"/>
+<status status="PASS" start="2025-07-28T07:44:37.926034" elapsed="0.443859"/>
 </kw>
-<status status="PASS" start="2025-07-28T07:22:37.094926" elapsed="0.566891"/>
+<arg>${pesquisa}</arg>
+<status status="PASS" start="2025-07-28T07:44:37.908115" elapsed="0.461879"/>
 </kw>
-<kw name="Verificar página de detalhes de produto" owner="productDetails">
-<kw name="Wait For Load State" owner="Browser">
-<msg time="2025-07-28T07:22:37.662888" level="INFO">Waiting page load to state to receive load in 10000.0</msg>
-<msg time="2025-07-28T07:22:39.141837" level="INFO">Load state load got in 10000</msg>
-<arg>Load</arg>
-<arg>10s</arg>
-<tag>PageContent</tag>
-<tag>Wait</tag>
-<doc>Waits that the page reaches the required load state.</doc>
-<status status="PASS" start="2025-07-28T07:22:37.662481" elapsed="1.479476"/>
-</kw>
+<kw name="Verificar página de Searched Products" owner="searchedProducts">
 <kw name="Wait For Elements State" owner="Browser">
-<msg time="2025-07-28T07:22:39.152804" level="INFO">Waited for Element with selector css=.product-information at state visible</msg>
-<arg>css=.product-information</arg>
+<msg time="2025-07-28T07:44:38.401841" level="INFO">Waited for Element with selector xpath=//h2[text()="Searched Products"] at state visible</msg>
+<arg>xpath=//h2[text()="Searched Products"]</arg>
 <arg>visible</arg>
 <arg>5s</arg>
 <tag>PageContent</tag>
 <tag>Wait</tag>
 <doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
-<status status="PASS" start="2025-07-28T07:22:39.142104" elapsed="0.010825"/>
+<status status="PASS" start="2025-07-28T07:44:38.370690" elapsed="0.031554"/>
 </kw>
-<kw name="Get Url" owner="Browser">
-<msg time="2025-07-28T07:22:39.155003" level="INFO">${url} = https://www.automationexercise.com/product_details/1</msg>
-<var>${url}</var>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-07-28T07:44:38.415401" level="INFO">Text: 'SEARCHED PRODUCTS'</msg>
+<arg>xpath=//h2[text()="Searched Products"]</arg>
+<arg>equal</arg>
+<arg>SEARCHED PRODUCTS</arg>
 <tag>Assertion</tag>
 <tag>Getter</tag>
 <tag>PageContent</tag>
-<doc>Returns the current URL.</doc>
-<status status="PASS" start="2025-07-28T07:22:39.153079" elapsed="0.001957"/>
-</kw>
-<kw name="Should Be Equal" owner="BuiltIn">
-<arg>https://www.automationexercise.com/product_details/1</arg>
-<arg>${url}</arg>
-<doc>Fails if the given objects are unequal.</doc>
-<status status="PASS" start="2025-07-28T07:22:39.155185" elapsed="0.000307"/>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-07-28T07:44:38.402545" elapsed="0.012942"/>
 </kw>
 <kw name="Wait For Elements State" owner="Browser">
-<msg time="2025-07-28T07:22:39.159850" level="INFO">Waited for Element with selector css=.cart at state visible</msg>
-<arg>css=.cart</arg>
+<msg time="2025-07-28T07:44:38.421317" level="INFO">Waited for Element with selector css=.product-image-wrapper:nth-of-type(1) at state visible</msg>
+<arg>css=.product-image-wrapper:nth-of-type(1)</arg>
 <arg>visible</arg>
 <arg>5s</arg>
 <tag>PageContent</tag>
 <tag>Wait</tag>
 <doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
-<status status="PASS" start="2025-07-28T07:22:39.155615" elapsed="0.004379"/>
+<status status="PASS" start="2025-07-28T07:44:38.415640" elapsed="0.005852"/>
 </kw>
 <kw name="Wait For Elements State" owner="Browser">
-<msg time="2025-07-28T07:22:39.166420" level="INFO">Waited for Element with selector css=.product-information&gt;h2 at state visible</msg>
-<arg>css=.product-information&gt;h2</arg>
+<msg time="2025-07-28T07:44:38.932636" level="INFO">Waited for Element with selector xpath=//p[text()="Stylish Dress"] at state visible</msg>
+<arg>xpath=//p[text()="${podutoPesquisado}"]</arg>
 <arg>visible</arg>
 <arg>5s</arg>
 <tag>PageContent</tag>
 <tag>Wait</tag>
 <doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
-<status status="PASS" start="2025-07-28T07:22:39.160145" elapsed="0.006513"/>
+<status status="PASS" start="2025-07-28T07:44:38.421716" elapsed="0.511093"/>
 </kw>
-<kw name="Wait For Elements State" owner="Browser">
-<msg time="2025-07-28T07:22:39.173047" level="INFO">Waited for Element with selector css=#quantity at state visible</msg>
-<arg>css=#quantity</arg>
-<arg>visible</arg>
-<arg>5s</arg>
-<tag>PageContent</tag>
-<tag>Wait</tag>
-<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
-<status status="PASS" start="2025-07-28T07:22:39.166931" elapsed="0.006259"/>
-</kw>
-<status status="PASS" start="2025-07-28T07:22:37.662175" elapsed="1.511111"/>
+<arg>${pesquisa}</arg>
+<status status="PASS" start="2025-07-28T07:44:38.370347" elapsed="0.562561"/>
 </kw>
 <kw name="Take Screenshot" owner="Browser" type="TEARDOWN">
-<msg time="2025-07-28T07:22:39.298160" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/robotframework-browser-screenshot-1.png" target="_blank"&gt;&lt;img src="browser/screenshot/robotframework-browser-screenshot-1.png" width="800px"/&gt;&lt;/a&gt;</msg>
+<msg time="2025-07-28T07:44:39.025626" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/robotframework-browser-screenshot-1.png" target="_blank"&gt;&lt;img src="browser/screenshot/robotframework-browser-screenshot-1.png" width="800px"/&gt;&lt;/a&gt;</msg>
 <tag>PageContent</tag>
 <doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
-<status status="PASS" start="2025-07-28T07:22:39.173657" elapsed="0.124645"/>
+<status status="PASS" start="2025-07-28T07:44:38.933288" elapsed="0.092570"/>
 </kw>
-<msg time="2025-07-28T07:22:39.308239" level="INFO">Switching context to context=e4188f43-c4c2-45bc-b4a6-760dfa63b67c in CURRENT</msg>
-<msg time="2025-07-28T07:22:39.314355" level="INFO">Successfully changed active context: context=e4188f43-c4c2-45bc-b4a6-760dfa63b67c</msg>
-<msg time="2025-07-28T07:22:39.360224" level="INFO">Successfully closed Context</msg>
-<tag>TodosProdutos</tag>
-<status status="PASS" start="2025-07-28T07:22:31.560842" elapsed="7.737691"/>
+<msg time="2025-07-28T07:44:39.036238" level="INFO">Switching context to context=745bf6ae-0877-4a1b-a13e-1bef5ad8404a in CURRENT</msg>
+<msg time="2025-07-28T07:44:39.041302" level="INFO">Successfully changed active context: context=745bf6ae-0877-4a1b-a13e-1bef5ad8404a</msg>
+<msg time="2025-07-28T07:44:39.078635" level="INFO">Successfully closed Context</msg>
+<tag>PesquisarProdutos</tag>
+<status status="PASS" start="2025-07-28T07:44:33.245225" elapsed="5.780800"/>
 </test>
-<status status="PASS" start="2025-07-28T07:22:31.289890" elapsed="8.071482"/>
+<status status="PASS" start="2025-07-28T07:44:32.948101" elapsed="6.132058"/>
 </suite>
 <statistics>
 <total>
 <stat pass="1" fail="0" skip="0">All Tests</stat>
 </total>
 <tag>
-<stat pass="1" fail="0" skip="0">TodosProdutos</stat>
+<stat pass="1" fail="0" skip="0">PesquisarProdutos</stat>
 </tag>
 <suite>
 <stat name="TestsBase" id="s1" pass="1" fail="0" skip="0">TestsBase</stat>
 </suite>
 </statistics>
 <errors>
-<msg time="2025-07-28T07:22:31.306569" level="WARN">Error in file 'D:\QA\Robot\AutomationExercise\resources\base.resource' on line 24: The '[Return]' setting is deprecated. Use the 'RETURN' statement instead.</msg>
+<msg time="2025-07-28T07:44:32.964551" level="WARN">Error in file 'D:\QA\Robot\AutomationExercise\resources\base.resource' on line 25: The '[Return]' setting is deprecated. Use the 'RETURN' statement instead.</msg>
 </errors>
 </robot>

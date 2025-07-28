@@ -1,62 +1,612 @@
-{"level":30,"time":"2025-07-28T10:22:32.047Z","pid":10380,"hostname":"DESKTOP-T8B1GKE","msg":"Listening on 127.0.0.1:60225"}
-(node:10380) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+{"level":30,"time":"2025-07-28T10:44:33.719Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Listening on 127.0.0.1:50483"}
+(node:20804) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
 (Use `node --trace-deprecation ...` to show where the warning was created)
-{"level":30,"time":"2025-07-28T10:22:32.110Z","pid":10380,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2025-07-28T10:22:32.268Z","pid":10380,"hostname":"DESKTOP-T8B1GKE","msg":"Adding browser to stack: chromium, version: 138.0.7204.23"}
-{"level":30,"time":"2025-07-28T10:22:32.268Z","pid":10380,"hostname":"DESKTOP-T8B1GKE","msg":"End of node method newBrowser"}
-{"level":30,"time":"2025-07-28T10:22:32.268Z","pid":10380,"hostname":"DESKTOP-T8B1GKE","msg":"Adding 0 contexts to browser"}
-{"level":30,"time":"2025-07-28T10:22:32.272Z","pid":10380,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method newPage"}
-{"level":30,"time":"2025-07-28T10:22:32.272Z","pid":10380,"hostname":"DESKTOP-T8B1GKE","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2025-07-28T10:22:32.280Z","pid":10380,"hostname":"DESKTOP-T8B1GKE","msg":"Changed active context"}
-{"level":30,"time":"2025-07-28T10:22:32.419Z","pid":10380,"hostname":"DESKTOP-T8B1GKE","msg":"Video path: undefined"}
-{"level":30,"time":"2025-07-28T10:22:32.419Z","pid":10380,"hostname":"DESKTOP-T8B1GKE","msg":"Changed active page"}
-{"level":30,"time":"2025-07-28T10:22:36.712Z","pid":10380,"hostname":"DESKTOP-T8B1GKE","msg":"End of node method newPage"}
-{"level":30,"time":"2025-07-28T10:22:36.716Z","pid":10380,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method click"}
-{"level":30,"time":"2025-07-28T10:22:36.716Z","pid":10380,"hostname":"DESKTOP-T8B1GKE","msg":"Strict mode is enabled, find Locator with //a[@href=\"/products\"] in page."}
-{"level":30,"time":"2025-07-28T10:22:37.009Z","pid":10380,"hostname":"DESKTOP-T8B1GKE","msg":"End of node method click"}
-{"level":30,"time":"2025-07-28T10:22:37.014Z","pid":10380,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-07-28T10:22:37.014Z","pid":10380,"hostname":"DESKTOP-T8B1GKE","msg":"Strict mode is enabled, find Locator with css=.features_items in page."}
-{"level":30,"time":"2025-07-28T10:22:37.070Z","pid":10380,"hostname":"DESKTOP-T8B1GKE","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-07-28T10:22:37.078Z","pid":10380,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method getText"}
-{"level":30,"time":"2025-07-28T10:22:37.078Z","pid":10380,"hostname":"DESKTOP-T8B1GKE","msg":"Strict mode is enabled, find Locator with xpath=//h2[text()=\"All Products\"] in page."}
-{"level":30,"time":"2025-07-28T10:22:37.093Z","pid":10380,"hostname":"DESKTOP-T8B1GKE","msg":"Retrieved text for element xpath=//h2[text()=\"All Products\"] containing ALL PRODUCTS"}
-{"level":30,"time":"2025-07-28T10:22:37.093Z","pid":10380,"hostname":"DESKTOP-T8B1GKE","msg":"End of node method getText"}
-{"level":30,"time":"2025-07-28T10:22:37.095Z","pid":10380,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method click"}
-{"level":30,"time":"2025-07-28T10:22:37.096Z","pid":10380,"hostname":"DESKTOP-T8B1GKE","msg":"Strict mode is enabled, find Locator with xpath=//a[@href=\"/product_details/1\"] in page."}
-{"level":30,"time":"2025-07-28T10:22:37.660Z","pid":10380,"hostname":"DESKTOP-T8B1GKE","msg":"End of node method click"}
-{"level":30,"time":"2025-07-28T10:22:37.663Z","pid":10380,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method WaitForPageLoadState"}
-{"level":30,"time":"2025-07-28T10:22:37.664Z","pid":10380,"hostname":"DESKTOP-T8B1GKE","msg":"timeout: 10000 state: load"}
-{"level":30,"time":"2025-07-28T10:22:39.140Z","pid":10380,"hostname":"DESKTOP-T8B1GKE","msg":"End of node method WaitForPageLoadState"}
-{"level":30,"time":"2025-07-28T10:22:39.142Z","pid":10380,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-07-28T10:22:39.143Z","pid":10380,"hostname":"DESKTOP-T8B1GKE","msg":"Strict mode is enabled, find Locator with css=.product-information in page."}
-{"level":30,"time":"2025-07-28T10:22:39.151Z","pid":10380,"hostname":"DESKTOP-T8B1GKE","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-07-28T10:22:39.156Z","pid":10380,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-07-28T10:22:39.156Z","pid":10380,"hostname":"DESKTOP-T8B1GKE","msg":"Strict mode is enabled, find Locator with css=.cart in page."}
-{"level":30,"time":"2025-07-28T10:22:39.158Z","pid":10380,"hostname":"DESKTOP-T8B1GKE","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-07-28T10:22:39.160Z","pid":10380,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-07-28T10:22:39.160Z","pid":10380,"hostname":"DESKTOP-T8B1GKE","msg":"Strict mode is enabled, find Locator with css=.product-information>h2 in page."}
-{"level":30,"time":"2025-07-28T10:22:39.165Z","pid":10380,"hostname":"DESKTOP-T8B1GKE","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-07-28T10:22:39.168Z","pid":10380,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-07-28T10:22:39.168Z","pid":10380,"hostname":"DESKTOP-T8B1GKE","msg":"Strict mode is enabled, find Locator with css=#quantity in page."}
-{"level":30,"time":"2025-07-28T10:22:39.172Z","pid":10380,"hostname":"DESKTOP-T8B1GKE","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-07-28T10:22:39.175Z","pid":10380,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2025-07-28T10:22:39.175Z","pid":10380,"hostname":"DESKTOP-T8B1GKE","Take screenshot with options: ":{"path":"D:\\QA\\Robot\\AutomationExercise\\logs\\browser\\screenshot\\robotframework-browser-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
-{"level":30,"time":"2025-07-28T10:22:39.296Z","pid":10380,"hostname":"DESKTOP-T8B1GKE","msg":"End of node method takeScreenshot"}
-{"level":30,"time":"2025-07-28T10:22:39.300Z","pid":10380,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-07-28T10:22:39.302Z","pid":10380,"hostname":"DESKTOP-T8B1GKE","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-07-28T10:22:39.303Z","pid":10380,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-07-28T10:22:39.304Z","pid":10380,"hostname":"DESKTOP-T8B1GKE","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-07-28T10:22:39.305Z","pid":10380,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-07-28T10:22:39.306Z","pid":10380,"hostname":"DESKTOP-T8B1GKE","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-07-28T10:22:39.308Z","pid":10380,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-07-28T10:22:39.309Z","pid":10380,"hostname":"DESKTOP-T8B1GKE","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-07-28T10:22:39.310Z","pid":10380,"hostname":"DESKTOP-T8B1GKE","msg":"Changed active context"}
-{"level":30,"time":"2025-07-28T10:22:39.310Z","pid":10380,"hostname":"DESKTOP-T8B1GKE","msg":"Changing current active page: page=bf265baf-b6f4-4937-b36d-76f4e16e5f29"}
-{"level":30,"time":"2025-07-28T10:22:39.310Z","pid":10380,"hostname":"DESKTOP-T8B1GKE","msg":"Changed active page"}
-{"level":30,"time":"2025-07-28T10:22:39.314Z","pid":10380,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method closeContext"}
-{"level":30,"time":"2025-07-28T10:22:39.327Z","pid":10380,"hostname":"DESKTOP-T8B1GKE","msg":"Removed page=5ccee178-3d09-47c6-b2c4-56e216aaec94 from context=e4188f43-c4c2-45bc-b4a6-760dfa63b67c page stack"}
-{"level":30,"time":"2025-07-28T10:22:39.358Z","pid":10380,"hostname":"DESKTOP-T8B1GKE","msg":"End of node method closeContext"}
-{"level":30,"time":"2025-07-28T10:22:39.367Z","pid":10380,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-07-28T10:22:39.367Z","pid":10380,"hostname":"DESKTOP-T8B1GKE","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-07-28T10:22:39.399Z","pid":10380,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method closeAllBrowsers"}
-{"level":30,"time":"2025-07-28T10:22:39.576Z","pid":10380,"hostname":"DESKTOP-T8B1GKE","msg":"End of node method closeAllBrowsers"}
+{"level":30,"time":"2025-07-28T10:44:33.800Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-07-28T10:44:33.936Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Adding browser to stack: chromium, version: 138.0.7204.23"}
+{"level":30,"time":"2025-07-28T10:44:33.937Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-07-28T10:44:33.937Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-07-28T10:44:33.940Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-07-28T10:44:33.940Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-07-28T10:44:33.949Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Changed active context"}
+{"level":30,"time":"2025-07-28T10:44:34.081Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Video path: undefined"}
+{"level":30,"time":"2025-07-28T10:44:34.081Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Changed active page"}
+{"level":30,"time":"2025-07-28T10:44:37.489Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"End of node method newPage"}
+{"level":30,"time":"2025-07-28T10:44:37.493Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method click"}
+{"level":30,"time":"2025-07-28T10:44:37.493Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Strict mode is enabled, find Locator with //a[@href=\"/products\"] in page."}
+{"level":30,"time":"2025-07-28T10:44:37.828Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"End of node method click"}
+{"level":30,"time":"2025-07-28T10:44:37.832Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-07-28T10:44:37.833Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Strict mode is enabled, find Locator with css=.features_items in page."}
+{"level":30,"time":"2025-07-28T10:44:37.882Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-07-28T10:44:37.890Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method getText"}
+{"level":30,"time":"2025-07-28T10:44:37.890Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Strict mode is enabled, find Locator with xpath=//h2[text()=\"All Products\"] in page."}
+{"level":30,"time":"2025-07-28T10:44:37.905Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Retrieved text for element xpath=//h2[text()=\"All Products\"] containing ALL PRODUCTS"}
+{"level":30,"time":"2025-07-28T10:44:37.905Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"End of node method getText"}
+{"level":30,"time":"2025-07-28T10:44:37.909Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-07-28T10:44:37.909Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Strict mode is enabled, find Locator with css=#search_product in page."}
+{"level":30,"time":"2025-07-28T10:44:37.912Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-07-28T10:44:37.915Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-07-28T10:44:37.915Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Strict mode is enabled, find Locator with css=#search_product in page."}
+{"level":30,"time":"2025-07-28T10:44:37.923Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"End of node method fillText"}
+{"level":30,"time":"2025-07-28T10:44:37.926Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method click"}
+{"level":30,"time":"2025-07-28T10:44:37.927Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Strict mode is enabled, find Locator with css=#submit_search in page."}
+{"level":30,"time":"2025-07-28T10:44:38.368Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"End of node method click"}
+{"level":30,"time":"2025-07-28T10:44:38.370Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-07-28T10:44:38.371Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Strict mode is enabled, find Locator with xpath=//h2[text()=\"Searched Products\"] in page."}
+{"level":30,"time":"2025-07-28T10:44:38.399Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-07-28T10:44:38.403Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method getText"}
+{"level":30,"time":"2025-07-28T10:44:38.403Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Strict mode is enabled, find Locator with xpath=//h2[text()=\"Searched Products\"] in page."}
+{"level":30,"time":"2025-07-28T10:44:38.413Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Retrieved text for element xpath=//h2[text()=\"Searched Products\"] containing SEARCHED PRODUCTS"}
+{"level":30,"time":"2025-07-28T10:44:38.413Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"End of node method getText"}
+{"level":30,"time":"2025-07-28T10:44:38.415Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-07-28T10:44:38.415Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Strict mode is enabled, find Locator with css=.product-image-wrapper:nth-of-type(1) in page."}
+{"level":30,"time":"2025-07-28T10:44:38.419Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-07-28T10:44:38.422Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-07-28T10:44:38.422Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Strict mode is enabled, find Locator with xpath=//p[text()=\"Stylish Dress\"] in page."}
+{"level":30,"time":"2025-07-28T10:44:38.443Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Error of node method  waitForElementState"}
+================= Original suppressed error =================
+locator.waitFor: Error: strict mode violation: locator('//p[text()="Stylish Dress"]') resolved to 2 elements:
+    1) <p>Stylish Dress</p> aka getByText('Stylish Dress').first()
+    2) <p>Stylish Dress</p> aka getByText('Stylish Dress').nth(1)
+
+Call log:
+[2m  - waiting for locator('//p[text()="Stylish Dress"]') to be visible[22m
+
+    at waitForElementState (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11283:19)
+    at async PlaywrightServer.waitForElementsState (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13135:28)
+=============================================================
+{"level":30,"time":"2025-07-28T10:44:38.445Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-07-28T10:44:38.445Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Strict mode is enabled, find Locator with xpath=//p[text()=\"Stylish Dress\"] in page."}
+================= Original suppressed error =================
+{"level":30,"time":"2025-07-28T10:44:38.458Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Error of node method  waitForElementState"}
+locator.waitFor: Error: strict mode violation: locator('//p[text()="Stylish Dress"]') resolved to 2 elements:
+    1) <p>Stylish Dress</p> aka getByText('Stylish Dress').first()
+    2) <p>Stylish Dress</p> aka getByText('Stylish Dress').nth(1)
+
+Call log:
+[2m  - waiting for locator('//p[text()="Stylish Dress"]') to be visible[22m
+
+    at waitForElementState (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11283:19)
+    at async PlaywrightServer.waitForElementsState (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13135:28)
+=============================================================
+{"level":30,"time":"2025-07-28T10:44:38.460Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-07-28T10:44:38.460Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Strict mode is enabled, find Locator with xpath=//p[text()=\"Stylish Dress\"] in page."}
+{"level":30,"time":"2025-07-28T10:44:38.472Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Error of node method  waitForElementState"}
+================= Original suppressed error =================
+locator.waitFor: Error: strict mode violation: locator('//p[text()="Stylish Dress"]') resolved to 2 elements:
+    1) <p>Stylish Dress</p> aka getByText('Stylish Dress').first()
+    2) <p>Stylish Dress</p> aka getByText('Stylish Dress').nth(1)
+
+Call log:
+[2m  - waiting for locator('//p[text()="Stylish Dress"]') to be visible[22m
+
+    at waitForElementState (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11283:19)
+    at async PlaywrightServer.waitForElementsState (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13135:28)
+=============================================================
+{"level":30,"time":"2025-07-28T10:44:38.474Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-07-28T10:44:38.474Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Strict mode is enabled, find Locator with xpath=//p[text()=\"Stylish Dress\"] in page."}
+{"level":30,"time":"2025-07-28T10:44:38.486Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Error of node method  waitForElementState"}
+================= Original suppressed error =================
+locator.waitFor: Error: strict mode violation: locator('//p[text()="Stylish Dress"]') resolved to 2 elements:
+    1) <p>Stylish Dress</p> aka getByText('Stylish Dress').first()
+    2) <p>Stylish Dress</p> aka getByText('Stylish Dress').nth(1)
+
+Call log:
+[2m  - waiting for locator('//p[text()="Stylish Dress"]') to be visible[22m
+
+    at waitForElementState (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11283:19)
+    at async PlaywrightServer.waitForElementsState (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13135:28)
+=============================================================
+{"level":30,"time":"2025-07-28T10:44:38.487Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-07-28T10:44:38.487Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Strict mode is enabled, find Locator with xpath=//p[text()=\"Stylish Dress\"] in page."}
+{"level":30,"time":"2025-07-28T10:44:38.498Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Error of node method  waitForElementState"}
+================= Original suppressed error =================
+locator.waitFor: Error: strict mode violation: locator('//p[text()="Stylish Dress"]') resolved to 2 elements:
+    1) <p>Stylish Dress</p> aka getByText('Stylish Dress').first()
+    2) <p>Stylish Dress</p> aka getByText('Stylish Dress').nth(1)
+
+Call log:
+[2m  - waiting for locator('//p[text()="Stylish Dress"]') to be visible[22m
+
+    at waitForElementState (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11283:19)
+    at async PlaywrightServer.waitForElementsState (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13135:28)
+=============================================================
+{"level":30,"time":"2025-07-28T10:44:38.500Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-07-28T10:44:38.500Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Strict mode is enabled, find Locator with xpath=//p[text()=\"Stylish Dress\"] in page."}
+================= Original suppressed error =================
+{"level":30,"time":"2025-07-28T10:44:38.510Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Error of node method  waitForElementState"}
+locator.waitFor: Error: strict mode violation: locator('//p[text()="Stylish Dress"]') resolved to 2 elements:
+    1) <p>Stylish Dress</p> aka getByText('Stylish Dress').first()
+    2) <p>Stylish Dress</p> aka getByText('Stylish Dress').nth(1)
+
+Call log:
+[2m  - waiting for locator('//p[text()="Stylish Dress"]') to be visible[22m
+
+    at waitForElementState (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11283:19)
+    at async PlaywrightServer.waitForElementsState (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13135:28)
+=============================================================
+{"level":30,"time":"2025-07-28T10:44:38.511Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-07-28T10:44:38.511Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Strict mode is enabled, find Locator with xpath=//p[text()=\"Stylish Dress\"] in page."}
+{"level":30,"time":"2025-07-28T10:44:38.523Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Error of node method  waitForElementState"}
+================= Original suppressed error =================
+locator.waitFor: Error: strict mode violation: locator('//p[text()="Stylish Dress"]') resolved to 2 elements:
+    1) <p>Stylish Dress</p> aka getByText('Stylish Dress').first()
+    2) <p>Stylish Dress</p> aka getByText('Stylish Dress').nth(1)
+
+Call log:
+[2m  - waiting for locator('//p[text()="Stylish Dress"]') to be visible[22m
+
+    at waitForElementState (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11283:19)
+    at async PlaywrightServer.waitForElementsState (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13135:28)
+=============================================================
+{"level":30,"time":"2025-07-28T10:44:38.525Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-07-28T10:44:38.525Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Strict mode is enabled, find Locator with xpath=//p[text()=\"Stylish Dress\"] in page."}
+{"level":30,"time":"2025-07-28T10:44:38.536Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Error of node method  waitForElementState"}
+================= Original suppressed error =================
+locator.waitFor: Error: strict mode violation: locator('//p[text()="Stylish Dress"]') resolved to 2 elements:
+    1) <p>Stylish Dress</p> aka getByText('Stylish Dress').first()
+    2) <p>Stylish Dress</p> aka getByText('Stylish Dress').nth(1)
+
+Call log:
+[2m  - waiting for locator('//p[text()="Stylish Dress"]') to be visible[22m
+
+    at waitForElementState (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11283:19)
+    at async PlaywrightServer.waitForElementsState (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13135:28)
+=============================================================
+{"level":30,"time":"2025-07-28T10:44:38.537Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-07-28T10:44:38.538Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Strict mode is enabled, find Locator with xpath=//p[text()=\"Stylish Dress\"] in page."}
+{"level":30,"time":"2025-07-28T10:44:38.547Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Error of node method  waitForElementState"}
+================= Original suppressed error =================
+locator.waitFor: Error: strict mode violation: locator('//p[text()="Stylish Dress"]') resolved to 2 elements:
+    1) <p>Stylish Dress</p> aka getByText('Stylish Dress').first()
+    2) <p>Stylish Dress</p> aka getByText('Stylish Dress').nth(1)
+
+Call log:
+[2m  - waiting for locator('//p[text()="Stylish Dress"]') to be visible[22m
+
+    at waitForElementState (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11283:19)
+    at async PlaywrightServer.waitForElementsState (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13135:28)
+=============================================================
+{"level":30,"time":"2025-07-28T10:44:38.549Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-07-28T10:44:38.549Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Strict mode is enabled, find Locator with xpath=//p[text()=\"Stylish Dress\"] in page."}
+{"level":30,"time":"2025-07-28T10:44:38.559Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Error of node method  waitForElementState"}
+================= Original suppressed error =================
+locator.waitFor: Error: strict mode violation: locator('//p[text()="Stylish Dress"]') resolved to 2 elements:
+    1) <p>Stylish Dress</p> aka getByText('Stylish Dress').first()
+    2) <p>Stylish Dress</p> aka getByText('Stylish Dress').nth(1)
+
+Call log:
+[2m  - waiting for locator('//p[text()="Stylish Dress"]') to be visible[22m
+
+    at waitForElementState (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11283:19)
+    at async PlaywrightServer.waitForElementsState (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13135:28)
+=============================================================
+{"level":30,"time":"2025-07-28T10:44:38.563Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-07-28T10:44:38.563Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Strict mode is enabled, find Locator with xpath=//p[text()=\"Stylish Dress\"] in page."}
+{"level":30,"time":"2025-07-28T10:44:38.573Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Error of node method  waitForElementState"}
+================= Original suppressed error =================
+locator.waitFor: Error: strict mode violation: locator('//p[text()="Stylish Dress"]') resolved to 2 elements:
+    1) <p>Stylish Dress</p> aka getByText('Stylish Dress').first()
+    2) <p>Stylish Dress</p> aka getByText('Stylish Dress').nth(1)
+
+Call log:
+[2m  - waiting for locator('//p[text()="Stylish Dress"]') to be visible[22m
+
+    at waitForElementState (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11283:19)
+    at async PlaywrightServer.waitForElementsState (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13135:28)
+=============================================================
+{"level":30,"time":"2025-07-28T10:44:38.575Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-07-28T10:44:38.575Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Strict mode is enabled, find Locator with xpath=//p[text()=\"Stylish Dress\"] in page."}
+{"level":30,"time":"2025-07-28T10:44:38.585Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Error of node method  waitForElementState"}
+================= Original suppressed error =================
+locator.waitFor: Error: strict mode violation: locator('//p[text()="Stylish Dress"]') resolved to 2 elements:
+    1) <p>Stylish Dress</p> aka getByText('Stylish Dress').first()
+    2) <p>Stylish Dress</p> aka getByText('Stylish Dress').nth(1)
+
+Call log:
+[2m  - waiting for locator('//p[text()="Stylish Dress"]') to be visible[22m
+
+    at waitForElementState (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11283:19)
+    at async PlaywrightServer.waitForElementsState (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13135:28)
+=============================================================
+{"level":30,"time":"2025-07-28T10:44:38.586Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-07-28T10:44:38.586Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Strict mode is enabled, find Locator with xpath=//p[text()=\"Stylish Dress\"] in page."}
+{"level":30,"time":"2025-07-28T10:44:38.597Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Error of node method  waitForElementState"}
+================= Original suppressed error =================
+locator.waitFor: Error: strict mode violation: locator('//p[text()="Stylish Dress"]') resolved to 2 elements:
+    1) <p>Stylish Dress</p> aka getByText('Stylish Dress').first()
+    2) <p>Stylish Dress</p> aka getByText('Stylish Dress').nth(1)
+
+Call log:
+[2m  - waiting for locator('//p[text()="Stylish Dress"]') to be visible[22m
+
+    at waitForElementState (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11283:19)
+    at async PlaywrightServer.waitForElementsState (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13135:28)
+=============================================================
+{"level":30,"time":"2025-07-28T10:44:38.601Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-07-28T10:44:38.601Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Strict mode is enabled, find Locator with xpath=//p[text()=\"Stylish Dress\"] in page."}
+{"level":30,"time":"2025-07-28T10:44:38.611Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Error of node method  waitForElementState"}
+================= Original suppressed error =================
+locator.waitFor: Error: strict mode violation: locator('//p[text()="Stylish Dress"]') resolved to 2 elements:
+    1) <p>Stylish Dress</p> aka getByText('Stylish Dress').first()
+    2) <p>Stylish Dress</p> aka getByText('Stylish Dress').nth(1)
+
+Call log:
+[2m  - waiting for locator('//p[text()="Stylish Dress"]') to be visible[22m
+
+    at waitForElementState (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11283:19)
+    at async PlaywrightServer.waitForElementsState (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13135:28)
+=============================================================
+{"level":30,"time":"2025-07-28T10:44:38.612Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-07-28T10:44:38.612Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Strict mode is enabled, find Locator with xpath=//p[text()=\"Stylish Dress\"] in page."}
+{"level":30,"time":"2025-07-28T10:44:38.623Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Error of node method  waitForElementState"}
+================= Original suppressed error =================
+locator.waitFor: Error: strict mode violation: locator('//p[text()="Stylish Dress"]') resolved to 2 elements:
+    1) <p>Stylish Dress</p> aka getByText('Stylish Dress').first()
+    2) <p>Stylish Dress</p> aka getByText('Stylish Dress').nth(1)
+
+Call log:
+[2m  - waiting for locator('//p[text()="Stylish Dress"]') to be visible[22m
+
+    at waitForElementState (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11283:19)
+    at async PlaywrightServer.waitForElementsState (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13135:28)
+=============================================================
+{"level":30,"time":"2025-07-28T10:44:38.624Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-07-28T10:44:38.624Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Strict mode is enabled, find Locator with xpath=//p[text()=\"Stylish Dress\"] in page."}
+{"level":30,"time":"2025-07-28T10:44:38.634Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Error of node method  waitForElementState"}
+================= Original suppressed error =================
+locator.waitFor: Error: strict mode violation: locator('//p[text()="Stylish Dress"]') resolved to 2 elements:
+    1) <p>Stylish Dress</p> aka getByText('Stylish Dress').first()
+    2) <p>Stylish Dress</p> aka getByText('Stylish Dress').nth(1)
+
+Call log:
+[2m  - waiting for locator('//p[text()="Stylish Dress"]') to be visible[22m
+
+    at waitForElementState (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11283:19)
+    at async PlaywrightServer.waitForElementsState (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13135:28)
+=============================================================
+{"level":30,"time":"2025-07-28T10:44:38.636Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-07-28T10:44:38.636Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Strict mode is enabled, find Locator with xpath=//p[text()=\"Stylish Dress\"] in page."}
+================= Original suppressed error =================
+{"level":30,"time":"2025-07-28T10:44:38.647Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Error of node method  waitForElementState"}
+locator.waitFor: Error: strict mode violation: locator('//p[text()="Stylish Dress"]') resolved to 2 elements:
+    1) <p>Stylish Dress</p> aka getByText('Stylish Dress').first()
+    2) <p>Stylish Dress</p> aka getByText('Stylish Dress').nth(1)
+
+Call log:
+[2m  - waiting for locator('//p[text()="Stylish Dress"]') to be visible[22m
+
+    at waitForElementState (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11283:19)
+    at async PlaywrightServer.waitForElementsState (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13135:28)
+=============================================================
+{"level":30,"time":"2025-07-28T10:44:38.649Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-07-28T10:44:38.649Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Strict mode is enabled, find Locator with xpath=//p[text()=\"Stylish Dress\"] in page."}
+{"level":30,"time":"2025-07-28T10:44:38.660Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Error of node method  waitForElementState"}
+================= Original suppressed error =================
+locator.waitFor: Error: strict mode violation: locator('//p[text()="Stylish Dress"]') resolved to 2 elements:
+    1) <p>Stylish Dress</p> aka getByText('Stylish Dress').first()
+    2) <p>Stylish Dress</p> aka getByText('Stylish Dress').nth(1)
+
+Call log:
+[2m  - waiting for locator('//p[text()="Stylish Dress"]') to be visible[22m
+
+    at waitForElementState (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11283:19)
+    at async PlaywrightServer.waitForElementsState (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13135:28)
+=============================================================
+{"level":30,"time":"2025-07-28T10:44:38.662Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-07-28T10:44:38.662Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Strict mode is enabled, find Locator with xpath=//p[text()=\"Stylish Dress\"] in page."}
+================= Original suppressed error =================
+{"level":30,"time":"2025-07-28T10:44:38.673Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Error of node method  waitForElementState"}
+locator.waitFor: Error: strict mode violation: locator('//p[text()="Stylish Dress"]') resolved to 2 elements:
+    1) <p>Stylish Dress</p> aka getByText('Stylish Dress').first()
+    2) <p>Stylish Dress</p> aka getByText('Stylish Dress').nth(1)
+
+Call log:
+[2m  - waiting for locator('//p[text()="Stylish Dress"]') to be visible[22m
+
+    at waitForElementState (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11283:19)
+    at async PlaywrightServer.waitForElementsState (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13135:28)
+=============================================================
+{"level":30,"time":"2025-07-28T10:44:38.675Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-07-28T10:44:38.675Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Strict mode is enabled, find Locator with xpath=//p[text()=\"Stylish Dress\"] in page."}
+================= Original suppressed error =================
+locator.waitFor: Error: strict mode violation: locator('//p[text()="Stylish Dress"]') resolved to 2 elements:
+    1) <p>Stylish Dress</p> aka getByText('Stylish Dress').first()
+    2) <p>Stylish Dress</p> aka getByText('Stylish Dress').nth(1)
+
+Call log:
+[2m  - waiting for locator('//p[text()="Stylish Dress"]') to be visible[22m
+
+    at waitForElementState (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11283:19)
+    at async PlaywrightServer.waitForElementsState (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13135:28)
+{"level":30,"time":"2025-07-28T10:44:38.686Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Error of node method  waitForElementState"}
+=============================================================
+{"level":30,"time":"2025-07-28T10:44:38.688Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-07-28T10:44:38.688Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Strict mode is enabled, find Locator with xpath=//p[text()=\"Stylish Dress\"] in page."}
+{"level":30,"time":"2025-07-28T10:44:38.699Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Error of node method  waitForElementState"}
+================= Original suppressed error =================
+locator.waitFor: Error: strict mode violation: locator('//p[text()="Stylish Dress"]') resolved to 2 elements:
+    1) <p>Stylish Dress</p> aka getByText('Stylish Dress').first()
+    2) <p>Stylish Dress</p> aka getByText('Stylish Dress').nth(1)
+
+Call log:
+[2m  - waiting for locator('//p[text()="Stylish Dress"]') to be visible[22m
+
+    at waitForElementState (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11283:19)
+    at async PlaywrightServer.waitForElementsState (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13135:28)
+=============================================================
+{"level":30,"time":"2025-07-28T10:44:38.701Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-07-28T10:44:38.701Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Strict mode is enabled, find Locator with xpath=//p[text()=\"Stylish Dress\"] in page."}
+================= Original suppressed error =================
+{"level":30,"time":"2025-07-28T10:44:38.711Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Error of node method  waitForElementState"}
+locator.waitFor: Error: strict mode violation: locator('//p[text()="Stylish Dress"]') resolved to 2 elements:
+    1) <p>Stylish Dress</p> aka getByText('Stylish Dress').first()
+    2) <p>Stylish Dress</p> aka getByText('Stylish Dress').nth(1)
+
+Call log:
+[2m  - waiting for locator('//p[text()="Stylish Dress"]') to be visible[22m
+
+    at waitForElementState (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11283:19)
+    at async PlaywrightServer.waitForElementsState (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13135:28)
+=============================================================
+{"level":30,"time":"2025-07-28T10:44:38.713Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-07-28T10:44:38.713Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Strict mode is enabled, find Locator with xpath=//p[text()=\"Stylish Dress\"] in page."}
+================= Original suppressed error =================
+{"level":30,"time":"2025-07-28T10:44:38.723Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Error of node method  waitForElementState"}
+locator.waitFor: Error: strict mode violation: locator('//p[text()="Stylish Dress"]') resolved to 2 elements:
+    1) <p>Stylish Dress</p> aka getByText('Stylish Dress').first()
+    2) <p>Stylish Dress</p> aka getByText('Stylish Dress').nth(1)
+
+Call log:
+[2m  - waiting for locator('//p[text()="Stylish Dress"]') to be visible[22m
+
+    at waitForElementState (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11283:19)
+    at async PlaywrightServer.waitForElementsState (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13135:28)
+=============================================================
+{"level":30,"time":"2025-07-28T10:44:38.725Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-07-28T10:44:38.725Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Strict mode is enabled, find Locator with xpath=//p[text()=\"Stylish Dress\"] in page."}
+================= Original suppressed error =================
+{"level":30,"time":"2025-07-28T10:44:38.736Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Error of node method  waitForElementState"}
+locator.waitFor: Error: strict mode violation: locator('//p[text()="Stylish Dress"]') resolved to 2 elements:
+    1) <p>Stylish Dress</p> aka getByText('Stylish Dress').first()
+    2) <p>Stylish Dress</p> aka getByText('Stylish Dress').nth(1)
+
+Call log:
+[2m  - waiting for locator('//p[text()="Stylish Dress"]') to be visible[22m
+
+    at waitForElementState (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11283:19)
+    at async PlaywrightServer.waitForElementsState (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13135:28)
+=============================================================
+{"level":30,"time":"2025-07-28T10:44:38.738Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-07-28T10:44:38.738Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Strict mode is enabled, find Locator with xpath=//p[text()=\"Stylish Dress\"] in page."}
+================= Original suppressed error =================
+{"level":30,"time":"2025-07-28T10:44:38.748Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Error of node method  waitForElementState"}
+locator.waitFor: Error: strict mode violation: locator('//p[text()="Stylish Dress"]') resolved to 2 elements:
+    1) <p>Stylish Dress</p> aka getByText('Stylish Dress').first()
+    2) <p>Stylish Dress</p> aka getByText('Stylish Dress').nth(1)
+
+Call log:
+[2m  - waiting for locator('//p[text()="Stylish Dress"]') to be visible[22m
+
+    at waitForElementState (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11283:19)
+    at async PlaywrightServer.waitForElementsState (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13135:28)
+=============================================================
+{"level":30,"time":"2025-07-28T10:44:38.750Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-07-28T10:44:38.750Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Strict mode is enabled, find Locator with xpath=//p[text()=\"Stylish Dress\"] in page."}
+{"level":30,"time":"2025-07-28T10:44:38.760Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Error of node method  waitForElementState"}
+================= Original suppressed error =================
+locator.waitFor: Error: strict mode violation: locator('//p[text()="Stylish Dress"]') resolved to 2 elements:
+    1) <p>Stylish Dress</p> aka getByText('Stylish Dress').first()
+    2) <p>Stylish Dress</p> aka getByText('Stylish Dress').nth(1)
+
+Call log:
+[2m  - waiting for locator('//p[text()="Stylish Dress"]') to be visible[22m
+
+    at waitForElementState (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11283:19)
+    at async PlaywrightServer.waitForElementsState (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13135:28)
+=============================================================
+{"level":30,"time":"2025-07-28T10:44:38.762Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-07-28T10:44:38.762Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Strict mode is enabled, find Locator with xpath=//p[text()=\"Stylish Dress\"] in page."}
+================= Original suppressed error =================
+{"level":30,"time":"2025-07-28T10:44:38.772Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Error of node method  waitForElementState"}
+locator.waitFor: Error: strict mode violation: locator('//p[text()="Stylish Dress"]') resolved to 2 elements:
+    1) <p>Stylish Dress</p> aka getByText('Stylish Dress').first()
+    2) <p>Stylish Dress</p> aka getByText('Stylish Dress').nth(1)
+
+Call log:
+[2m  - waiting for locator('//p[text()="Stylish Dress"]') to be visible[22m
+
+    at waitForElementState (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11283:19)
+    at async PlaywrightServer.waitForElementsState (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13135:28)
+=============================================================
+{"level":30,"time":"2025-07-28T10:44:38.774Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-07-28T10:44:38.774Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Strict mode is enabled, find Locator with xpath=//p[text()=\"Stylish Dress\"] in page."}
+{"level":30,"time":"2025-07-28T10:44:38.784Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Error of node method  waitForElementState"}
+================= Original suppressed error =================
+locator.waitFor: Error: strict mode violation: locator('//p[text()="Stylish Dress"]') resolved to 2 elements:
+    1) <p>Stylish Dress</p> aka getByText('Stylish Dress').first()
+    2) <p>Stylish Dress</p> aka getByText('Stylish Dress').nth(1)
+
+Call log:
+[2m  - waiting for locator('//p[text()="Stylish Dress"]') to be visible[22m
+
+    at waitForElementState (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11283:19)
+    at async PlaywrightServer.waitForElementsState (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13135:28)
+=============================================================
+{"level":30,"time":"2025-07-28T10:44:38.785Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-07-28T10:44:38.785Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Strict mode is enabled, find Locator with xpath=//p[text()=\"Stylish Dress\"] in page."}
+================= Original suppressed error =================
+{"level":30,"time":"2025-07-28T10:44:38.795Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Error of node method  waitForElementState"}
+locator.waitFor: Error: strict mode violation: locator('//p[text()="Stylish Dress"]') resolved to 2 elements:
+    1) <p>Stylish Dress</p> aka getByText('Stylish Dress').first()
+    2) <p>Stylish Dress</p> aka getByText('Stylish Dress').nth(1)
+
+Call log:
+[2m  - waiting for locator('//p[text()="Stylish Dress"]') to be visible[22m
+
+    at waitForElementState (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11283:19)
+    at async PlaywrightServer.waitForElementsState (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13135:28)
+=============================================================
+{"level":30,"time":"2025-07-28T10:44:38.797Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-07-28T10:44:38.797Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Strict mode is enabled, find Locator with xpath=//p[text()=\"Stylish Dress\"] in page."}
+================= Original suppressed error =================
+{"level":30,"time":"2025-07-28T10:44:38.807Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Error of node method  waitForElementState"}
+locator.waitFor: Error: strict mode violation: locator('//p[text()="Stylish Dress"]') resolved to 2 elements:
+    1) <p>Stylish Dress</p> aka getByText('Stylish Dress').first()
+    2) <p>Stylish Dress</p> aka getByText('Stylish Dress').nth(1)
+
+Call log:
+[2m  - waiting for locator('//p[text()="Stylish Dress"]') to be visible[22m
+
+    at waitForElementState (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11283:19)
+    at async PlaywrightServer.waitForElementsState (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13135:28)
+=============================================================
+{"level":30,"time":"2025-07-28T10:44:38.808Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-07-28T10:44:38.808Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Strict mode is enabled, find Locator with xpath=//p[text()=\"Stylish Dress\"] in page."}
+================= Original suppressed error =================
+{"level":30,"time":"2025-07-28T10:44:38.820Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Error of node method  waitForElementState"}
+locator.waitFor: Error: strict mode violation: locator('//p[text()="Stylish Dress"]') resolved to 2 elements:
+    1) <p>Stylish Dress</p> aka getByText('Stylish Dress').first()
+    2) <p>Stylish Dress</p> aka getByText('Stylish Dress').nth(1)
+
+Call log:
+[2m  - waiting for locator('//p[text()="Stylish Dress"]') to be visible[22m
+
+    at waitForElementState (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11283:19)
+    at async PlaywrightServer.waitForElementsState (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13135:28)
+=============================================================
+{"level":30,"time":"2025-07-28T10:44:38.822Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-07-28T10:44:38.822Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Strict mode is enabled, find Locator with xpath=//p[text()=\"Stylish Dress\"] in page."}
+================= Original suppressed error =================
+{"level":30,"time":"2025-07-28T10:44:38.832Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Error of node method  waitForElementState"}
+locator.waitFor: Error: strict mode violation: locator('//p[text()="Stylish Dress"]') resolved to 2 elements:
+    1) <p>Stylish Dress</p> aka getByText('Stylish Dress').first()
+    2) <p>Stylish Dress</p> aka getByText('Stylish Dress').nth(1)
+
+Call log:
+[2m  - waiting for locator('//p[text()="Stylish Dress"]') to be visible[22m
+
+    at waitForElementState (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11283:19)
+    at async PlaywrightServer.waitForElementsState (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13135:28)
+=============================================================
+{"level":30,"time":"2025-07-28T10:44:38.834Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-07-28T10:44:38.834Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Strict mode is enabled, find Locator with xpath=//p[text()=\"Stylish Dress\"] in page."}
+{"level":30,"time":"2025-07-28T10:44:38.844Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Error of node method  waitForElementState"}
+================= Original suppressed error =================
+locator.waitFor: Error: strict mode violation: locator('//p[text()="Stylish Dress"]') resolved to 2 elements:
+    1) <p>Stylish Dress</p> aka getByText('Stylish Dress').first()
+    2) <p>Stylish Dress</p> aka getByText('Stylish Dress').nth(1)
+
+Call log:
+[2m  - waiting for locator('//p[text()="Stylish Dress"]') to be visible[22m
+
+    at waitForElementState (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11283:19)
+    at async PlaywrightServer.waitForElementsState (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13135:28)
+=============================================================
+{"level":30,"time":"2025-07-28T10:44:38.845Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-07-28T10:44:38.845Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Strict mode is enabled, find Locator with xpath=//p[text()=\"Stylish Dress\"] in page."}
+{"level":30,"time":"2025-07-28T10:44:38.857Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Error of node method  waitForElementState"}
+================= Original suppressed error =================
+locator.waitFor: Error: strict mode violation: locator('//p[text()="Stylish Dress"]') resolved to 2 elements:
+    1) <p>Stylish Dress</p> aka getByText('Stylish Dress').first()
+    2) <p>Stylish Dress</p> aka getByText('Stylish Dress').nth(1)
+
+Call log:
+[2m  - waiting for locator('//p[text()="Stylish Dress"]') to be visible[22m
+
+    at waitForElementState (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11283:19)
+    at async PlaywrightServer.waitForElementsState (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13135:28)
+=============================================================
+{"level":30,"time":"2025-07-28T10:44:38.859Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-07-28T10:44:38.859Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Strict mode is enabled, find Locator with xpath=//p[text()=\"Stylish Dress\"] in page."}
+{"level":30,"time":"2025-07-28T10:44:38.869Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Error of node method  waitForElementState"}
+================= Original suppressed error =================
+locator.waitFor: Error: strict mode violation: locator('//p[text()="Stylish Dress"]') resolved to 2 elements:
+    1) <p>Stylish Dress</p> aka getByText('Stylish Dress').first()
+    2) <p>Stylish Dress</p> aka getByText('Stylish Dress').nth(1)
+
+Call log:
+[2m  - waiting for locator('//p[text()="Stylish Dress"]') to be visible[22m
+
+    at waitForElementState (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11283:19)
+    at async PlaywrightServer.waitForElementsState (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13135:28)
+=============================================================
+{"level":30,"time":"2025-07-28T10:44:38.870Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-07-28T10:44:38.870Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Strict mode is enabled, find Locator with xpath=//p[text()=\"Stylish Dress\"] in page."}
+{"level":30,"time":"2025-07-28T10:44:38.880Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Error of node method  waitForElementState"}
+================= Original suppressed error =================
+locator.waitFor: Error: strict mode violation: locator('//p[text()="Stylish Dress"]') resolved to 2 elements:
+    1) <p>Stylish Dress</p> aka getByText('Stylish Dress').first()
+    2) <p>Stylish Dress</p> aka getByText('Stylish Dress').nth(1)
+
+Call log:
+[2m  - waiting for locator('//p[text()="Stylish Dress"]') to be visible[22m
+
+    at waitForElementState (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11283:19)
+    at async PlaywrightServer.waitForElementsState (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13135:28)
+=============================================================
+{"level":30,"time":"2025-07-28T10:44:38.881Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-07-28T10:44:38.881Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Strict mode is enabled, find Locator with xpath=//p[text()=\"Stylish Dress\"] in page."}
+{"level":30,"time":"2025-07-28T10:44:38.891Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Error of node method  waitForElementState"}
+================= Original suppressed error =================
+locator.waitFor: Error: strict mode violation: locator('//p[text()="Stylish Dress"]') resolved to 2 elements:
+    1) <p>Stylish Dress</p> aka getByText('Stylish Dress').first()
+    2) <p>Stylish Dress</p> aka getByText('Stylish Dress').nth(1)
+
+Call log:
+[2m  - waiting for locator('//p[text()="Stylish Dress"]') to be visible[22m
+
+    at waitForElementState (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11283:19)
+    at async PlaywrightServer.waitForElementsState (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13135:28)
+=============================================================
+{"level":30,"time":"2025-07-28T10:44:38.893Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-07-28T10:44:38.893Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Strict mode is enabled, find Locator with xpath=//p[text()=\"Stylish Dress\"] in page."}
+{"level":30,"time":"2025-07-28T10:44:38.903Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Error of node method  waitForElementState"}
+================= Original suppressed error =================
+locator.waitFor: Error: strict mode violation: locator('//p[text()="Stylish Dress"]') resolved to 2 elements:
+    1) <p>Stylish Dress</p> aka getByText('Stylish Dress').first()
+    2) <p>Stylish Dress</p> aka getByText('Stylish Dress').nth(1)
+
+Call log:
+[2m  - waiting for locator('//p[text()="Stylish Dress"]') to be visible[22m
+
+    at waitForElementState (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11283:19)
+    at async PlaywrightServer.waitForElementsState (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13135:28)
+=============================================================
+{"level":30,"time":"2025-07-28T10:44:38.905Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-07-28T10:44:38.905Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Strict mode is enabled, find Locator with xpath=//p[text()=\"Stylish Dress\"] in page."}
+{"level":30,"time":"2025-07-28T10:44:38.921Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Error of node method  waitForElementState"}
+================= Original suppressed error =================
+locator.waitFor: Error: strict mode violation: locator('//p[text()="Stylish Dress"]') resolved to 2 elements:
+    1) <p>Stylish Dress</p> aka getByText('Stylish Dress').first()
+    2) <p>Stylish Dress</p> aka getByText('Stylish Dress').nth(1)
+
+Call log:
+[2m  - waiting for locator('//p[text()="Stylish Dress"]') to be visible[22m
+
+    at waitForElementState (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11283:19)
+    at async PlaywrightServer.waitForElementsState (C:\Users\Marcos Santos\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13135:28)
+=============================================================
+{"level":30,"time":"2025-07-28T10:44:38.922Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-07-28T10:44:38.922Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Strict mode is enabled, find Locator with xpath=//p[text()=\"Stylish Dress\"] in page."}
+{"level":30,"time":"2025-07-28T10:44:38.931Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-07-28T10:44:38.935Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-07-28T10:44:38.935Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","Take screenshot with options: ":{"path":"D:\\QA\\Robot\\AutomationExercise\\logs\\browser\\screenshot\\robotframework-browser-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-07-28T10:44:39.023Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-07-28T10:44:39.027Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-28T10:44:39.029Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-28T10:44:39.030Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-28T10:44:39.031Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-28T10:44:39.032Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-28T10:44:39.034Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-28T10:44:39.036Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-28T10:44:39.037Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-28T10:44:39.038Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Changed active context"}
+{"level":30,"time":"2025-07-28T10:44:39.038Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Changing current active page: page=ea33e0f3-3179-42a0-a48f-6050e665e7eb"}
+{"level":30,"time":"2025-07-28T10:44:39.038Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Changed active page"}
+{"level":30,"time":"2025-07-28T10:44:39.040Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method closeContext"}
+{"level":30,"time":"2025-07-28T10:44:39.049Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Removed page=d1c2a542-0974-4b33-b9a3-6b16c85afd09 from context=745bf6ae-0877-4a1b-a13e-1bef5ad8404a page stack"}
+{"level":30,"time":"2025-07-28T10:44:39.076Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"End of node method closeContext"}
+{"level":30,"time":"2025-07-28T10:44:39.085Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-28T10:44:39.086Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-28T10:44:39.121Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-07-28T10:44:39.297Z","pid":20804,"hostname":"DESKTOP-T8B1GKE","msg":"End of node method closeAllBrowsers"}

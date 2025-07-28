@@ -6,7 +6,7 @@ Test Setup           Start new session
 Test Teardown        Take Screenshot
 
 *** Variables ***
-
+${pesquisa}    Stylish Dress
 
 
 *** Test Cases ***
@@ -64,4 +64,10 @@ verificar todos os produtos e a página de detalhes do produto
     verificar Página de all products
     selecionar o primeiro produto
     Verificar página de detalhes de produto
-    
+
+Pesquisar produto
+    [Tags]    PesquisarProdutos
+    Ir para página de produtos
+    verificar Página de all products
+    Pesquisar Produto    ${pesquisa}
+    Verificar página de Searched Products    ${pesquisa}
